@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import { glob } from 'glob';
+import { resolve } from 'path';
 
 import FullReload from 'vite-plugin-full-reload';
 import SortCss from 'postcss-sort-media-queries';
